@@ -4,6 +4,7 @@ body {
     object-fit: contain;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: #000;
 }
 
 
@@ -15,6 +16,7 @@ body {
         font-weight: 900;
         font-size: 36pt;
         margin: 0;
+        color: white;
     }
 
     h2 {
@@ -22,6 +24,7 @@ body {
         font-weight: 900;
         margin: 0;
         font-size: 18pt;
+        color: white;
     }
 
     h3 {
@@ -30,6 +33,7 @@ body {
         margin: 0;
         font-size: 18pt;
         font-style: italic;
+        color: white;
     }
 
         .h3-landing {
@@ -44,6 +48,7 @@ body {
         font-weight: 500;
         font-size: 16pt;
         margin: 0;
+        color: white;
     }
 
         .inpt h4 {
@@ -54,12 +59,15 @@ body {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 500;
         font-size: 12pt;
+        color: white;
     }
+
     /* paragraph */
     p {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 300;
         font-size: 12pt;
+        color: white;
     }
 
         footer p {
@@ -67,7 +75,7 @@ body {
             font-weight: 300;
             font-size: 8pt;
             text-align: center;
-            color: #25B07F;
+            color: white;
         }
 
         .btn p {
@@ -87,7 +95,7 @@ body {
     width: 100%;
     height: 3vh;
     padding: 2% 1% 1% 1%;
-    background-color: white;
+    background-color: #000;
 }
 
     .nav-regular img {
@@ -104,7 +112,7 @@ body {
     width: 100%;
     height: 3vh;
     padding: 2% 1% 1% 1%;
-    background-color: white;
+    background-color: black;
 }
 
     .nav-sticky img {
@@ -119,34 +127,41 @@ body {
         width: 450px;
     }
 
+        h5.nav-a {
+            color: #1ce2ff;
+        }
+
+        h5.nav-b {
+            color: #f438a4;
+        }
+
+        h5.nav-c {
+            color: #ffd44a;
+        }
+
         .nav-center a:link {
             text-decoration: none;
-            color: black;
         }
         
-        .nav-center a:visited {
+        .nav-center h5:hover {
             text-decoration: none;
-            color: black;
-        }
-        
-        .nav-center a:hover {
-            text-decoration: none;
-            color: #25B07F;
+            color: white;
         }
         
         .nav-center a:active {
             text-decoration: none;
-            color: #FFCC00;
+            color: white;
         }
         
         .nav-center a.current {
             font-style: italic;
-            color: #25B07F;
+            color: white;
         }
 
     .nav-current h5 {
-        color: #25B07F;
         font-style: italic;
+        opacity: 100%;
+        color: white;
     }
 
 
@@ -172,6 +187,7 @@ footer {
         #index-penlette {
             width: 100%;
         }
+
     /* index-intro */
     .index-intro {
         display: flex;
@@ -237,11 +253,11 @@ footer {
         }
     
         .st0{
-            fill:#1D1D1D;
+            fill:white;
         }
     
         .st1{
-            fill:#FFFFFF;
+            fill:black;
         }
     
         #is-telephone {
@@ -275,7 +291,7 @@ footer {
         width: 25%;
         max-width: 25%;
         height: 50vh;
-        background-color: white;
+        background-color: black;
         position: absolute;
         transform: translateZ(2);
         top: 0;
@@ -287,16 +303,17 @@ footer {
             padding: 1% 20%;
             cursor: pointer;
             text-align: right;
-            background-color: white;
+            background-color: black;
             height: 5.5vh;
+            color: #FFFFFF;
         }
 
-            .portfolio-btn:hover {
-                color: #FFCC00;
+            #portfolio-btn:hover {
+                color: #1ce2ff;
             }
             
             .portfolio-btn.active {
-                color: #25B07F;
+                color: white;
             }
 
             .portfolio-btn.active p {
@@ -339,7 +356,7 @@ footer {
                 flex-direction: row;
                 align-items: end;
                 width: 100vw;
-                background-color: white;
+                background-color: black;
                 padding: 1rem;
                 position: relative;
             }
@@ -356,39 +373,39 @@ footer {
                     opacity: 80%;
                 }
 
-                #pli-link {
+                a#pli-link {
                     margin: 0;
                     width: 14%;
                     padding: 1% 5% 5% 6%;
                     cursor: pointer;
                     text-align: right;
-                    background-color: white;
+                    background-color: black;
                     height: 100%;
                 }
 
-                #pli-link:link {
+                a#pli-link:link {
                     text-decoration: none;
-                    color: black;
+                    color: white;
                 }
                 
-                #pli-link:visited {
+                a#pli-link:visited {
                     text-decoration: none;
-                    color: black;
+                    color: #1ce2ff;
                 }
                 
-                #pli-link:hover {
+                a#pli-link:hover {
                     text-decoration: none;
-                    color: #25B07F;
+                    color: #f438a4;
                 }
                 
-                #pli-link:active {
+                a#pli-link:active {
                     text-decoration: none;
-                    color: #FFCC00;
+                    color: white;
                 }
                 
-                #pli-link.current {
+                a#pli-link.current {
                     font-style: italic;
-                    color: #25B07F;
+                    color: white;
                 }
 
                 .show {
@@ -410,7 +427,7 @@ div.inpro {
         width: 25%;
         max-width: 25%;
         height: 90vh;
-        background-color: white;
+        background-color: black;
         padding: 1vh 1vw 1vh 2vw;
     }
 
@@ -423,6 +440,10 @@ div.inpro {
             .back img {
                 width: 5vw;
                 height: 5vh;
+            }
+
+            .back img:hover {
+                cursor: pointer;
             }
 
         .inpd {
@@ -472,7 +493,7 @@ div.inpro {
         }
 
         .cont {
-            background-color: white;
+            background-color: black;
             padding: 10px;
         }
 
@@ -515,7 +536,6 @@ div.inpro {
             align-items: center;
             height: 75vh;
             width: 15vw;
-            box-shadow: 0px 0px 5px 1px #edf2f4;
             border-radius: 1rem;
             padding: 0.5%;
             opacity: 0;
@@ -589,7 +609,7 @@ div.inpro {
                 }
 
                 .life-skill-item-header:hover {
-                    color: #25B07F;
+                    color: #1ce2ff;
                 }
 
                 .life-skill-item-bar {
@@ -647,7 +667,7 @@ div.inpro {
                 display: flex;
                 align-items: center;
                 width: 20vw;
-                background-color: #FFFFFF;
+                background-color: black;
             }
         
                 .life-experience-item img {
@@ -684,7 +704,7 @@ div.inpro {
 
                 .life-experience-item:hover {
                     cursor: pointer;
-                    color: #25B07F;
+                    color: #1ce2ff;
                 }
 
                 .life-experience-item:hover + .reveal {
@@ -749,7 +769,7 @@ div.inpro {
                 }
 
                 .life-contact-item:hover {
-                    color: #25B07F;
+                    color: #1ce2ff;
                     cursor: pointer;
                 }
 

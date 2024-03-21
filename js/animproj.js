@@ -13,13 +13,11 @@ tl.from(".inpimg", {
     y:300,
     opacity: 0,
 }, "-=1");
-tl.from(".back", {
-    duration:2,
-    opacity:0,
-    x:-100,
-});
 tl.from(".inpd", {
     duration:2,
     opacity: 0,
-    x: -100,
-}, "-=2");
+}, "-=1");
+tl.from(".back", {
+    duration:2,
+    opacity:0,
+});

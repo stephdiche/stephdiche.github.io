@@ -3,10 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{fill:#FFFFFF;}
-	.st3{opacity:0.75;}
+	.st0{display:none; fill:white;}
+	.st1{display:inline; fill:white;}
+	.st2{fill:white;}
+	.st3{opacity:0.75; fill:white;}
 </style>
 <g id="BG" class="st0">
 	<g class="st1">
@@ -14,10 +14,7 @@
 		<path d="M521-21v534H-13V-21H521 M522-22H-14v536h536V-22L522-22z"/>
 	</g>
 </g>
-<g id="layout" class="st0">
-</g>
-<g id="blur" class="st0">
-</g>
+
 <g id="circles" class="st0">
 	<g class="st1">
 		<g class="st3">
@@ -442,19 +439,8 @@
 		</g>
 	</g>
 </g>
-<g id="candles" class="st0">
-</g>
-<g id="pens_and_brushes" class="st0">
-</g>
-<g id="Layer_8" class="st0">
-</g>
-<g id="layout_1_" class="st0">
-</g>
-<g id="color">
-</g>
-<g id="name" class="st0">
-</g>
-<g>
+
+<g class="st1">
 	<path d="M444.8,426.2c-0.5-0.1-1.1-0.3-1.6-0.3C442.9,425.1,443.5,425.3,444.8,426.2z"/>
 	<path d="M444.7,426.1c5.7,0.7,13.3,4.5,18.1,7C459,437.2,448.8,428.8,444.7,426.1z"/>
 	<path d="M445.1,434.8l-6.7-1.5C441.8,434.4,442.2,431.8,445.1,434.8z"/>

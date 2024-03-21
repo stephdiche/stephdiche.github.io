@@ -3,10 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#1D1D1D;}
+	.st0{fill:black;}
+	.st1{fill:white;}
 </style>
-<g id="mail" onclick="life.html">
+<g id="yt" onclick="life.html">
 	<circle class="st0" cx="249.3" cy="246.7" r="208.1"/>
 	<g>
 		<g>
@@ -275,7 +275,7 @@
 		</g>
 	</g>
 </g>
-<g>
+<g class="st1">
 	<g>
 		<path d="M122,195.9c-0.9-0.5-3.1-0.4-2.8,0.9l3.6,1.1L122,195.9z"/>
 	</g>
@@ -536,7 +536,7 @@
 		<polygon points="355.8,146.3 357.5,145.6 354.6,145.8 		"/>
 	</g>
 </g>
-<g>
+<g  class="st1">
 	<g>
 		<path d="M224.1,205c-0.4,0.4-1,1.6-0.5,1.6l1.3-1.8L224.1,205z"/>
 	</g>

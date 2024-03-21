@@ -1,23 +1,16 @@
-// index-penlette-lottie
-var animation = bodymovin.loadAnimation({
-    container: document.getElementById('index-penlette'),
-    renderer: 'svg',
-    loop: false,
-    autoplay: true,
-    path: 'https://assets7.lottiefiles.com/packages/lf20_os3tkdsb.json',
-})
-
-
 // index-landing
 var tl = gsap.timeline({
     defaults: {
         ease: "power1.out"
     }
 });
+tl.from("#index-penlette", {
+    duration:2,
+    opacity:0,
+});
 tl.from(".h3-landing", {
     duration:2,
     opacity:0,
-    delay:4,
 });
 tl.from("#navbar", {
     duration:2,
